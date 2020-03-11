@@ -91,7 +91,7 @@ git push origin master
 
 [https://blog.webjeda.com/](https://blog.webjeda.com/)
 
-（这个哥们的博客可以解决Jekyll博客搭建过程中普遍的错误，他还有 Youtube 视频可以解惑）
+（这个哥们的博客可以解决Jekyll博客搭建过程中普遍的错误，他还有Youtube视频可以解惑）
 
 [https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll)
 
