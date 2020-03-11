@@ -41,11 +41,11 @@ categories: 备忘
 
   其中 weownthenight 要改成自己的用户名。
 
-  如果你想要这个主题部署到 用户名.github.ui/blog 上，就请你把你的仓库名命名为blog，以此类推。
+  如果你想要这个主题部署到 username.github.ui/blog 上，就请你把你的仓库名命名为blog，以此类推。
 
 - 更改branch。
 
-  观察一下 fork 来的仓库有几个 branch，默认 branch 是哪个？一般会有两个 branch，一个master，另一个gh-pages。如果你是部署到 username.github.io 上，那么只要留下 master 并把它设为默认就可以了。如果是要部署到 username.github.io/blog 上，那么你需要删掉 gh-pages后再新建一个 gh-pages ，并把新建的 gh-pages 设为默认。
+  观察一下fork来的仓库有几个branch，默认branch是哪个？一般会有两个branch，一个master，另一个gh-pages。如果你是部署到 username.github.io 上，那么只要留下master并把它设为默认就可以了。如果是要部署到 username.github.io/blog 上，那么你需要删掉gh-pages后再新建一个gh-pages，并把新建的gh-pages设为默认。
 
 做完这些，你就可以浏览一下网址了，此时你的网站应该和模版网站一模一样。
 
@@ -57,17 +57,18 @@ categories: 备忘
 
 > https://jekyllrb.com/docs/
 
-安装好Jekyll后，就可以将 GitHub 上的仓库克隆到本地了：
+安装好Jekyll后，就可以将GitHub上的仓库克隆到本地了：
 
 ```
 git clone 仓库地址
 ```
 
-复制到本地后，转换到文件夹，运行 jekyll serve，就可以在本地看到博客了。
+复制到本地后，转换到文件夹，运行jekyll serve，就可以在本地看到博客了。
+如果jekyll serve报错，可以根据提示，使用bundle exec jekyll serve，据说此时报错也是正常的，只要bundle exec jekyll serve可以运行就可以。最近发现这个指令有时能运行有时不能运行，还是安装不规范的原因，有时间按照官网重新安装一次。
 
 ## 4、修改模版、上传博客
 
-相比之下修改模版比较简单，即使不熟悉Jekyll也能猜个大概。每次修改文件后，运行 :
+相比之下修改模版比较简单，即使不熟悉Jekyll也能猜个大概。主要需要更改的地方都在_config.yml。每次修改文件后，运行jekyll serve在本地查看，满意后运行 :
 
 ```
 git add .
@@ -75,7 +76,8 @@ git commit -m "update"
 git push origin master
 ```
 
-如果你用的是 gh-pages，就将 master 改为 gh-pages即可。
+如果你用的是gh-pages，就将master改为gh-pages即可。
+此后更新博客只要在_posts文件夹新建markdown文件就可以了。如果不清楚格式，你可以参考一下模版网站的仓库，看看他们博客的格式，照着写就行。
 
 如果以上还有疑问，可以参考：
 
