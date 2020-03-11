@@ -79,18 +79,18 @@ git push origin master
 
 如果以上还有疑问，可以参考：
 
-https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a
+ [https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a](https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a)
 
 （大体步骤都写得很详细）
 
-https://jekyllrb.com/docs/
+[https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
 
 （Jekyll官方文档，基本可以解决安装过程的问题）
 
-https://blog.webjeda.com/
+[https://blog.webjeda.com/](https://blog.webjeda.com/)
 
 （这个哥们的博客可以解决Jekyll博客搭建过程中普遍的错误，他还有 Youtube 视频可以解惑）
 
-https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll
+[https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll)
 
 （GitHub Pages提供的官方文档，我觉得有点多，看完需要耐心，有疑问的话，可以找一下）
