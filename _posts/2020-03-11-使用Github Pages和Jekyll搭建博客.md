@@ -12,32 +12,32 @@ categories: 备忘
 
 ## 1、找一个你喜欢的theme
 
-如果你还没有GitHub账号，需要注册一个，用户名最好不要含有大写字母，曾经我有一个含大写字母的账号，不能和 GitHub Pages 上对应，所以搭建博客总是失败。
+如果你还没有GitHub账号，需要注册一个，用户名最好不要含有大写字母，曾经我有一个含大写字母的账号，不能和GitHub Pages上对应，所以搭建博客总是失败。
 
-在 GitHub 上所有 Jekyll 博客主题中选一个喜欢的主题，比较推荐的是 Jekyll 官网上提供的几个网站和 GitHub 官方给的一个地址：
+在GitHub上所有Jekyll博客主题中选一个喜欢的主题，比较推荐的是Jekyll官网上提供的几个网站和GitHub官方给的一个地址：
 
 > [jamstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/)
 >
 > [jekyllthemes.org](http://jekyllthemes.org/)
 >
-> https://github.com/topics/jekyll-theme
+> [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
 
 
 
 选主题时要比较注意几点：
 
-- 尽量选择近期有更新维护处理 issues 的主题，如果你的能力有限（和我一样），你不希望你的主题有什么 bug 导致接下来的工作进行不下去，如果出现问题，有维护的主题相比之下更好。
+- 尽量选择近期有更新维护处理issues的主题，如果你的能力有限（和我一样），你不希望你的主题有什么bug导致接下来的工作进行不下去，如果出现问题，有维护的主题相比之下更好。
 - 如果你需要用中文写博客，尽量找支持中文的模版，有些模版英文很好看，中文就不怎么好看了。
 
 ## 2、现在就能看看你自己的博客了
 
-找到你满意的 theme 以后，进入到对应的 GitHub repository，Fork一下，这个仓库就到了你的账户下。这个时候，你需要做几件事情：
+找到你满意的theme以后，进入到对应的GitHub repository，Fork一下，这个仓库就到了你的账户下。这个时候，你需要做几件事情：
 
 - 更改仓库名。
 
   取决于你想要这个主题部署在哪个网址上。如果你想要在 username.github.io 上看到，那么仓库名就要改成 username.github.io，就像这样：
 
-  ![image-20200311124812861](/Users/alexandreaswiftie/Library/Application Support/typora-user-images/image-20200311124812861.png)
+  ![image-1](/images/posts/weownthenight.png)
 
   其中 weownthenight 要改成自己的用户名。
 
@@ -79,10 +79,18 @@ git push origin master
 
 如果以上还有疑问，可以参考：
 
-https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a （大体步骤都写得很详细）
+https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a
 
-https://jekyllrb.com/docs/ （Jekyll官方文档，基本可以解决安装过程的问题）
+（大体步骤都写得很详细）
 
-https://blog.webjeda.com/ （这个哥们的博客可以解决Jekyll博客搭建过程中普遍的错误，他还有 Youtube 视频可以解惑）
+https://jekyllrb.com/docs/
 
-https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll （GitHub Pages提供的官方文档，我觉得有点多，看完需要耐心，有疑问的话，可以找一下）
+（Jekyll官方文档，基本可以解决安装过程的问题）
+
+https://blog.webjeda.com/
+
+（这个哥们的博客可以解决Jekyll博客搭建过程中普遍的错误，他还有 Youtube 视频可以解惑）
+
+https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll
+
+（GitHub Pages提供的官方文档，我觉得有点多，看完需要耐心，有疑问的话，可以找一下）
