@@ -55,7 +55,7 @@ categories: 备忘
 
 我在安装Jekyll的过程中出现了很多问题，强烈建议按照Jekyll官网的教程一步步做：
 
-> https://jekyllrb.com/docs/
+>[https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
 
 安装好Jekyll后，就可以将GitHub上的仓库克隆到本地了：
 
