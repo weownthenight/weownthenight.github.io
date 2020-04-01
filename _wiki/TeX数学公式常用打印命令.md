@@ -64,32 +64,31 @@ categories: 备忘
 
 ### 6、微积分符号
 
-| 表达式（行内公式需要加上$$）                                 | 表示形式                                               |
-| ------------------------------------------------------------ | ------------------------------------------------------ |
-| \infty                                                       | $\infty$                                               |
-| \to                                                          | $\to$                                                  |
-| \lim                                                         | $\lim$                                                 |
-| 需要 $n\to\infty$ 在lim之下时需要加上\limits：<br />例如：\lim\limits_{n\to\infty} | $\lim\limits_{n\to\infty}$                             |
-| \f'(x)                                                       | $f'(x)$                                                |
-| \sim                                                         | $\sim$                                                 |
-| \int                                                         | $\int$                                                 |
-| \lim\limits_{\substack{x\to x_0\\y\to y_0}}f(x,y)=A          | $\lim\limits_{\substack{x\to x_0 \\y\to y_0}}f(x,y)=A$ |
-| \partial                                                     | $\partial$                                             |
-| \iint                                                        | $\iint$                                                |
+| 表达式（行内公式需要加上$$）                                 | 表示形式                                                 |
+| ------------------------------------------------------------ | -------------------------------------------------------- |
+| \infty                                                       | $\infty$                                                 |
+| \to                                                          | $\to$                                                    |
+| \lim                                                         | $\lim$                                                   |
+| 需要 $n\to\infty$ 在lim之下时需要加上\limits：<br />例如：\lim\limits_{n\to\infty} | $\lim\limits_{n\to\infty}$                               |
+| \f'(x)                                                       | $f'(x)$                                                  |
+| \sim                                                         | $\sim$                                                   |
+| \int                                                         | $\int$                                                   |
+| \lim\limits_{\substack{x\to x_0\\y\to y_0}}f(x,y)=A          | $\lim\limits_{\substack{x\to x_0 \\\\y\to y_0}}f(x,y)=A$ |
+| \partial                                                     | $\partial$                                               |
+| \iint                                                        | $\iint$                                                  |
 
 ### 7、矩阵与行列式
 
-| 表达式（行内公式需要加上$$）          | 表示形式                                |
-| ------------------------------------- | --------------------------------------- |
-| \begin{vmatrix}1&1\\\1&1\end{vmatrix} | $\begin{vmatrix}1&1 \\1&1\end{vmatrix}$ |
-| \begin{pmatrix}1&0\\\0&1\end{pmatrix} | $\begin{pmatrix}1&0 \\0&1\end{pmatrix}$ |
+| 表达式（行内公式需要加上$$）            | 表示形式                                  |
+| --------------------------------------- | ----------------------------------------- |
+| \\begin{vmatrix}1&1\\\1&1\end {vmatrix} | $\begin{vmatrix}1&1 \\\\1&1\end{vmatrix}$ |
+| \\begin{pmatrix}1&0\\\0&1\end {pmatrix} | $\begin{pmatrix}1&0 \\\\0&1\end{pmatrix}$ |
 
 ### 8、括号
 
-| 表达式（行内公式需要加上$$）                                 | 表示形式                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| \int_{-a}^{a}f(x)dx=\left\\\{\begin{array}{lcl}0&若f(x)为奇函数\\\ 2\int_{0}^{a}f(x)dx&若f(x)为偶函数\end{array} \right. | $\int_{-a}^{a}f(x)dx=\left\{\begin{array}{lcl}0&若f(x)为奇函数 \\ 2\int_{0}^{a}f(x)dx&若f(x)为偶函数\end{array} \right.$ |
-| \begin{cases}1&x>0\\\-1&x<0\end{cases}                       | $\begin{cases}1&x>0 \\-1&x<0\end{cases}$                     |
+| 表达式（行内公式需要加上$$）              | 表示形式                                   |
+| ----------------------------------------- | ------------------------------------------ |
+| \\begin{cases}1&x>0\\\\-1&x<0\end {cases} | $\begin{cases}1&x>0 \\\\-1&x<0\end{cases}$ |
 
 ### 9、集合与逻辑符号
 
@@ -126,9 +125,8 @@ categories: 备忘
 
 | **表达式（行内公式需要加上$$）**                             | 表示形式                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| \int_{0}^{\frac{\pi}{2}}sin^nxdx=\left\\\{\begin{array}{lcl}n=8&\frac{7}{8}\cdot\frac{5}{6}\cdot\frac{3}{4}\cdot\frac{1}{2}\cdot\frac{\pi}{2}\\\n=7&\frac{6}{7}\cdot\frac{4}{5}\cdot\frac{2}{3}\end{array}\right. | $\int_{0}^{\frac{\pi}{2}}sin^nxdx=\left\{\begin{array}{lcl}n=8&\frac{7}{8}\cdot\frac{5}{6}\cdot\frac{3}{4}\cdot\frac{1}{2}\cdot\frac{\pi}{2} \\n=7&\frac{6}{7}\cdot\frac{4}{5}\cdot\frac{2}{3}\end{array}\right.$ |
 | \displaystyle\frac{\partial(\frac{\partial z}{\partial x})}{\partial x}=\frac{\partial ^2z}{\partial x^2} | $\displaystyle\frac{\partial(\frac{\partial z}{\partial x})}{\partial x}=\frac{\partial ^2z}{\partial x^2}$ |
 | V=\iint\limits_{D}f(x,y)d\sigma                              | $V=\iint\limits_{D}f(x,y)d\sigma$                            |
-| \begin{vmatrix}........\\\a_{i1}+b_{i1} &a_{i2}+b_{i2},...,a_{in}+b_{in}\\\\......\end {vmatrix} | $\begin{vmatrix}........ \\a_{i1}+b_{i1} &a_{i2}+b_{i2},...,a_{in}+b_{in} \\\\......\end {vmatrix}$ |
-| \begin{vmatrix}a_{11}\\a_{21}&a_{22}\\\\vdots&\vdots&\ddots \\\a_{n1}&a_{n2}&\dots&a_{nn}\end{vmatrix} | $\begin{vmatrix}a_{11} \\a_{21}&a_{22} \\\vdots&\vdots&\ddots  \\a_{n1}&a_{n2}&\dots&a_{nn}\end{vmatrix}$ |
+| \\begin{vmatrix}........\\\a_{i1}+ b_{i1} &a_{i2}+b_{i2},...,a_{in}+b_{in}\\\\......\end {vmatrix} | $\begin{vmatrix}........ \\\\a_{i1}+b_{i1} &a_{i2}+b_{i2},...,a_{in}+b_{in} \\\\......\end {vmatrix}$ |
+| \\begin{vmatrix}a_{11}\\\a_{21}&a_{22}\\\ \vdots&\vdots&\ddots \\\a_{n1}&a_{n2}&\dots&a_{nn}\end {vmatrix} | $\begin{vmatrix}a_{11} \\\\a_{21}&a_{22} \\\\\vdots&\vdots&\ddots  \\\\a_{n1}&a_{n2}&\dots&a_{nn}\end{vmatrix}$ |
 
