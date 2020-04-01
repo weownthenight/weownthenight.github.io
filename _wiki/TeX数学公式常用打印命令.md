@@ -73,7 +73,7 @@ categories: 备忘
 | \f'(x)                                                       | $f'(x)$                                                  |
 | \sim                                                         | $\sim$                                                   |
 | \int                                                         | $\int$                                                   |
-| \lim\limits_{\substack{x\to x_0\\y\to y_0}}f(x,y)=A          | $\lim\limits_{\substack{x\to x_0 \\\\y\to y_0}}f(x,y)=A$ |
+| \lim\limits_{\substack{x\to x_0\\\y\to y_0}}f(x,y)=A         | $\lim\limits_{\substack{x\to x_0 \\\\y\to y_0}}f(x,y)=A$ |
 | \partial                                                     | $\partial$                                               |
 | \iint                                                        | $\iint$                                                  |
 
