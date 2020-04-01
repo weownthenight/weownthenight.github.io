@@ -129,6 +129,6 @@ categories: 备忘
 | \int_{0}^{\frac{\pi}{2}}sin^nxdx=\left\\\{\begin{array}{lcl}n=8&\frac{7}{8}\cdot\frac{5}{6}\cdot\frac{3}{4}\cdot\frac{1}{2}\cdot\frac{\pi}{2}\\\n=7&\frac{6}{7}\cdot\frac{4}{5}\cdot\frac{2}{3}\end{array}\right. | $\int_{0}^{\frac{\pi}{2}}sin^nxdx=\left\{\begin{array}{lcl}n=8&\frac{7}{8}\cdot\frac{5}{6}\cdot\frac{3}{4}\cdot\frac{1}{2}\cdot\frac{\pi}{2} \\n=7&\frac{6}{7}\cdot\frac{4}{5}\cdot\frac{2}{3}\end{array}\right.$ |
 | \displaystyle\frac{\partial(\frac{\partial z}{\partial x})}{\partial x}=\frac{\partial ^2z}{\partial x^2} | $\displaystyle\frac{\partial(\frac{\partial z}{\partial x})}{\partial x}=\frac{\partial ^2z}{\partial x^2}$ |
 | V=\iint\limits_{D}f(x,y)d\sigma                              | $V=\iint\limits_{D}f(x,y)d\sigma$                            |
-| \begin{vmatrix}........\\\a_{i1}+b_{i1} &a_{i2}+b_{i2},...,a_{in}+b_{in}\\\\......\end {vmatrix} | $\begin{vmatrix}........ \\a_{i1}+b_{i1} &a_{i2}+b_{i2},...,a_{in}+b_{in} \\......\end {vmatrix}$ |
+| \begin{vmatrix}........\\\a_{i1}+b_{i1} &a_{i2}+b_{i2},...,a_{in}+b_{in}\\\\......\end {vmatrix} | $\begin{vmatrix}........ \\a_{i1}+b_{i1} &a_{i2}+b_{i2},...,a_{in}+b_{in} \\\\......\end {vmatrix}$ |
 | \begin{vmatrix}a_{11}\\a_{21}&a_{22}\\\\vdots&\vdots&\ddots \\\a_{n1}&a_{n2}&\dots&a_{nn}\end{vmatrix} | $\begin{vmatrix}a_{11} \\a_{21}&a_{22} \\\vdots&\vdots&\ddots  \\a_{n1}&a_{n2}&\dots&a_{nn}\end{vmatrix}$ |
 
