@@ -1,6 +1,9 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
+markdown: kramdown
+kramdown: 
+    math_engine: katex
 baseurl:
 url: 
 date_format: "ordinal"
