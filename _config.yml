@@ -34,9 +34,9 @@ navs:
     href: /categories/
     label: 分类
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+    href: /archives/
+    label: 归档
 
   -
     href: /wiki/
@@ -61,6 +61,7 @@ subscribe_rss: /feed.xml
 markdown: kramdown
 kramdown:
     input: GFM
+    math_engine: mathjax
 highlighter: rouge
 paginate: 10
 lsi: false
@@ -94,18 +95,18 @@ comments_provider: gitalk
 disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
-# gitment:
- #   owner: weownthenight
-  #  repo: blog-comments
-  #  oauth:
-   #     client_id: d2e1cbbd298958076462
-   #     client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+gitment:
+   owner: weownthenight
+   repo: blog-comments
+   oauth:
+     client_id: b02162642a1b562ec79f
+     client_secret: 7c7c70831ccae2031266f49fcb86c59852477109
 # https://github.com/gitalk/gitalk#install
-# gitalk:
- #   owner: mzlogin
- #   repo: blog-comments
-  #  clientID: d2e1cbbd298958076462
-  #  clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+gitalk:
+   owner: weownthenight
+   repo: blog-comments
+   clientID: b02162642a1b562ec79f
+   clientSecret: 7c7c70831ccae2031266f49fcb86c59852477109
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
