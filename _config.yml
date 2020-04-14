@@ -5,8 +5,10 @@ baseurl:
 url: 
 date_format: "ordinal"
 title: weownthenight的博客
-subtitle: we own the night
-description: 
+subtitle: ｜
+            we own the night
+            我们拥有夜晚
+description:
 keywords: 
 timezone: Asia/Shanghai
 encoding: "utf-8"
