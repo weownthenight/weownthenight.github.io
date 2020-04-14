@@ -4,8 +4,9 @@
 baseurl:
 url: 
 date_format: "ordinal"
-title: Alexandrea的博客
-subtitle: 我们拥有夜晚 we own the night
+title: weownthenight的博客
+subtitle: "我们拥有夜晚\
+    we own the night"
 description: 
 keywords: 
 timezone: Asia/Shanghai
@@ -15,7 +16,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Alexandrea
+author: weownthenight
 organization: 
 organization_url: 
 github_username: weownthenight
@@ -42,9 +43,9 @@ navs:
     href: /wiki/
     label: 维基
 
-  -
-    href: /links/
-    label: 链接
+ # -
+ #   href: /links/
+  #  label: 链接
 
   -
     href: /about/
