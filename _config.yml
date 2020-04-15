@@ -5,7 +5,7 @@ baseurl:
 url: 
 date_format: "ordinal"
 title: weownthenight的博客
-subtitle: 我们拥有夜晚 we own the night
+subtitle: 我们拥有夜晚  we own the night
 description:
 keywords: 
 timezone: Asia/Shanghai
@@ -49,10 +49,6 @@ navs:
   -
     href: /about/
     label: 关于
-
-  -
-    href: /cv/
-    label: CV
 
 # ---------------- #
 #       RSS        #
