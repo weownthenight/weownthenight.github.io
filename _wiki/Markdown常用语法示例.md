@@ -2,7 +2,6 @@
 
 layout: wiki
 title: Markdown常用语法示例
-description: （转载）Markdown 常用语法示例。
 keywords: Markdown
 mermaid: true
 sequence: true
@@ -15,7 +14,6 @@ mathjax: true
 ---
 layout: wiki
 title: Markdown常用语法示例
-description: （转载）Markdown 常用语法示例。
 keywords: Markdown
 mermaid: true
 sequence: true
