@@ -1,9 +1,21 @@
+---
+layout: wiki
+title: Markdown常用语法示例
+categories: Markdown，备忘
+description: （转载）Markdown 常用语法示例。
+keywords: Markdown
+mermaid: true
+sequence: true
+flow: true
+mathjax: true
+---
+
 ```
 ---
 layout: wiki
-title: Markdown
-categories: Markdown
-description: Markdown 常用语法示例。
+title: Markdown常用语法示例
+categories: Markdown，备忘
+description: （转载）Markdown 常用语法示例。
 keywords: Markdown
 mermaid: true
 sequence: true
