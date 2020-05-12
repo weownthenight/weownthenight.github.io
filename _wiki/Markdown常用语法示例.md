@@ -1,9 +1,9 @@
 ```
 ---
-layout: post
+layout: wiki
 title: Markdown
 categories: Markdown
-description: （转载）Markdown 常用语法示例。
+description: Markdown 常用语法示例。
 keywords: Markdown
 mermaid: true
 sequence: true
@@ -123,11 +123,11 @@ print 'Hello, World!'
 
    ```python
    print 'hello'
-```
+   ```
 
 ### 图片
 
-```
+​```
 ![本站favicon](/favicon.ico)
 ​```
 
@@ -135,7 +135,7 @@ print 'Hello, World!'
 
 ### 锚点
 
-```
+​```
 * [目录](#目录)
 ​```
 
@@ -161,7 +161,7 @@ sequenceDiagram
 
 ### sequence
 
-```sequence
+​```sequence
 Andrew->China: Says Hello
 Note right of China: China thinks\nabout it
 China-->Andrew: How are you?
@@ -170,7 +170,7 @@ Andrew->>China: I am good thanks!
 
 ### flowchart
 
-```flow
+​```flow
 st=>start: Start
 e=>end
 op1=>operation: My Operation
@@ -193,5 +193,3 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 [^1]: Here is the footnote 1 definition.
 ```
 
-
-```
