@@ -2,7 +2,6 @@
 
 layout: wiki
 title: Markdown常用语法示例
-keywords: Markdown
 mermaid: true
 sequence: true
 flow: true
@@ -10,11 +9,12 @@ mathjax: true
 
 ---
 
+# Markdown常用语法示例
+
 ```
 ---
 layout: wiki
 title: Markdown常用语法示例
-keywords: Markdown
 mermaid: true
 sequence: true
 flow: true
