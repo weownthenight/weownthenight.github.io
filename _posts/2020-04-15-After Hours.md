@@ -8,7 +8,7 @@ description: 我对The Weeknd新专辑的看法
 
 ---
 
-​	 ![image-1](/images/posts/afterhours.jpg)
+​	 ![image-1](/images/posts/afterhours.png)
 
 ​	我并不是忠实的The Weeknd歌迷，除了在billboard公告牌上听到的歌曲外，我基本没有听过一张他的完整专辑。After Hours能吸引我的注意是因为blinding lights，这首复古洗脑的歌曲简直能绕梁三日。之后他在SNL上表演现场非常精彩，我知道the weeknd的现场一直很稳定，但是在SNL这样效果的舞台上发挥得如此之好，还是让人意想不到。在专辑发行之前的几次宣传：Jimmy Kimmel秀和After Hours同名微电影都很精彩。After Hours的视频很明显受到了小丑的影响，表现形式上快切，配合让我吃惊的The Weeknd的演技，让我又期待又担心。我喜欢After Hours的深夜概念，喜欢他打造的似乎一系列的连贯故事和人设，同时又难免担心他是否有些做过头。等到专辑发行后，毫无疑问，是2020年这一整年我最喜欢的专辑。
 
