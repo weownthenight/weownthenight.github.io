@@ -2,8 +2,7 @@
 
 layout: post
 title: Things I learnt from Joshua Fluke
-categories: 备忘
-description: 一些我从Joshua Fluke吸取的职业建议
+categories: 生活
 
 ---
 

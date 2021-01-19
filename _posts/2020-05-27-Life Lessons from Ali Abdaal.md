@@ -2,8 +2,7 @@
 
 layout: post
 title:  Life Lessons from Ali Abdaal
-categories: 备忘
-description: 一些我从Ali Abdaal收获的生活理念
+categories: 生活
 
 ---
 
