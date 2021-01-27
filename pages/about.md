@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 关于
 description: 打码改变世界
 keywords: Zhuang Ma, 马壮
 comments: true
@@ -23,7 +23,7 @@ permalink: /about/
 </ul>
 
 
-## Skill Keywords
+## 技能点
 
 {% for skill in site.data.skills %}
 ### {{ skill.name }}

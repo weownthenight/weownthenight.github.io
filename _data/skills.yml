@@ -3,11 +3,12 @@
       - C
       - C++
       - Python
+      - LaTeX
+      - git
 
-- name: Courses I took
+- name: 我学习过的课程
   keywords:
-    - Big Data
-    - Machine Learning
-    - Advanced Data Structrue
-    - Design Patterns
-    - Artificial Intelligence
+    - 数据挖掘
+    - 机器学习
+    - 模式识别
+    - 人工智能
