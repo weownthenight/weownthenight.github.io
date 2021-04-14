@@ -1,6 +1,13 @@
-# Pytorch官网教程笔记
+---
+layout: post
 
-🔗：https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html
+title: Pytorch官网Tutorials笔记（一）
+
+categories: 深度学习 Pytorch
+
+---
+
+🔗：[https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html)
 
 ## 1. 基础知识
 
@@ -419,7 +426,7 @@ plt.show()
 
 
     
-![png](output_60_0.png)
+![png01](/images/posts/output_60_0.png)
     
 
 
@@ -498,7 +505,7 @@ print(f"Label: {label}")
 
 
     
-![png](output_73_1.png)
+![png02](/images/posts/output_73_1.png)
     
 
 
