@@ -156,7 +156,7 @@ print(f"Device tensor is stored on: {tensor.device}")
 
 ### 1.1.3 Tensor的操作
 
-🔗: https://pytorch.org/docs/stable/torch.html
+🔗: [https://pytorch.org/docs/stable/torch.html](https://pytorch.org/docs/stable/torch.html)
 
 将本地CPU的tensor移到GPU：
 
@@ -547,8 +547,3 @@ ds = datasets.FashionMNIST(
 ### Lambda Transforms
 
 Lambda transforms apply any user-defined lambda function.
-
-
-```python
-
-```
