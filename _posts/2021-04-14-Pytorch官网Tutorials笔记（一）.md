@@ -9,7 +9,7 @@ categories: 深度学习 Pytorch
 
 🔗：[https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html)
 
-## 1. 基础知识
+# 1. 基础知识
 
 ## 1.1 张量（Tensors）
 
