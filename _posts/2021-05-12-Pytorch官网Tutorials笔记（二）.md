@@ -1,3 +1,12 @@
+---
+layout: post
+
+title: Pytorch官网Tutorials笔记（一）
+
+categories: 深度学习 Pytorch
+
+---
+
 # Pytorch官网教程（二）
 
 # 1.基础知识
@@ -21,7 +30,7 @@ loss = torch.nn.functional.binary_cross_entropy_with_logits(z,y)  # cross entrop
 
 ### Tensors, Functions and Computational graph
 
-![image.png](attachment:image.png)
+![2021051201.png](/images/posts/2021051201.png)
 
 在上图中，`w`和`b`是参数，我们需要计算它们的梯度，对于这样的变量，可以将`requires_grad`设置为True，如上面的代码。也可以在之后用`w.requires_grad_(True)`来赋值
 
@@ -123,7 +132,7 @@ Pytorch中的DAG是动态的，意思是每次运行`.backward()`时都会动态
 
 For a vector function  𝑦⃗ =𝑓(𝑥⃗ ) , where  𝑥⃗ =⟨𝑥1,…,𝑥𝑛⟩  and  𝑦⃗ =⟨𝑦1,…,𝑦𝑚⟩ , a gradient of  𝑦⃗   with respect to  𝑥⃗   is given by Jacobian matrix（雅各比矩阵）:
 
-![image.png](attachment:image.png)
+![2021051202.png](/images/posts/2021051202.png)
 
 Instead of computing the Jacobian matrix itself, PyTorch allows you to compute Jacobian Product  𝑣𝑇⋅𝐽  for a given input vector  𝑣=(𝑣1…𝑣𝑚) . This is achieved by calling backward with  𝑣  as an argument. The size of  𝑣  should be the same as the size of the original tensor, with respect to which we want to compute the product:
 
