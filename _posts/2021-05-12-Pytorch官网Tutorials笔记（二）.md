@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Pytorch官网Tutorials笔记（一）
+title: Pytorch官网Tutorials笔记（二）
 
 categories: 深度学习 Pytorch
 
