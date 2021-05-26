@@ -1,8 +1,7 @@
 ---
-
 layout: wiki
-title: baby HTML
 
+title: baby HTML
 ---
 
 这是我为了写博客学习的一点点很简单的HTML。🔗：[HTML教程](https://www.w3school.com.cn/h.asp)
@@ -11,30 +10,27 @@ title: baby HTML
 
 Mac想要用TextEditor编辑html文件，需要提前设置才能正确显示，参考办法：[Mac如何创建HTML文件](https://www.jianshu.com/p/f8b21918ba36)
 
-![image-20210525164812734](/images/posts/20210521.png)
+![image-20210525164812734](/images/posts/2021052501.png)
 
 ## 设置背景块
 
 写博客的时候，遇到一些情况，比如Tips等等，想要显示出一个有背景颜色的文字块。这个时候可以这样写：
 
-\<table>
-    \<tr>
-        \<td style="background-color:Gray;color:white">
-
-​			\<pre>
-
-这是一个文本块。
-            \</pre>
-
-​		\</td>
-​    \</tr>
+\<table> <br />
+    \<tr> <br />
+        \<td style="background-color:Azure"> <br />
+​			\<pre> <br />
+这是一个文本块。 <br />
+            \</pre> <br />
+​		\</td> <br />
+​    \</tr> <br />
 \</table>
 
 显示效果如下：
 
 <table>
     <tr>
-        <td style="background-color:Gray;color:white">
+        <td style="background-color:Azure">
             <pre>
 这是一个文本块。
             </pre>
