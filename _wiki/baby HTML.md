@@ -15,13 +15,12 @@ Mac想要用TextEditor编辑html文件，需要提前设置才能正确显示，
 ## 设置背景块
 
 写博客的时候，遇到一些情况，比如Tips等等，想要显示出一个有背景颜色的文字块。这个时候可以这样写：
-改过了3。
 
 <pre>
 &lt;table&gt; 
     &lt;tr&gt;
-        &lt;td style="background-color:Azure;color:white"&gt;
-这是一个文本块。 &lt;br /&gt;
+        &lt;td style="background-color:Black;color:white"&gt;
+这是一个文本块。 
 ​		&lt;/td&gt;
 ​    &lt;/tr&gt; 
 &lt;/table&gt;
@@ -31,7 +30,7 @@ Mac想要用TextEditor编辑html文件，需要提前设置才能正确显示，
 
 <table>
     <tr>
-        <td style="background-color:Azure;color:white">
+        <td style="background-color:Black;color:white">
 这是一个文本块。
         </td>
     </tr>
