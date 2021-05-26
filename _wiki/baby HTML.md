@@ -29,13 +29,11 @@ Mac想要用TextEditor编辑html文件，需要提前设置才能正确显示，
 显示效果如下：
 
 <table>
-    <tr>
         <td style="background-color:Azure">
             <pre>
 这是一个文本块。
             </pre>
         </td>
-    </tr>
 </table>
 
 下面解释一下：
