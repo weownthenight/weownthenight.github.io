@@ -1,9 +1,6 @@
 ---
-layout: post
+layout: wiki
 title: Anki导出pdf的方法
-categories: 备忘
-tags:  备忘
-description: 复习可以用到的技巧
 ---
 
 # Anki导出pdf
