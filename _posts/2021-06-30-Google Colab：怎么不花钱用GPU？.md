@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Google Colab: 怎么不花钱用GPU？
+title: Google Colab:怎么不花钱用GPU？
 
 categories: 深度学习
 
