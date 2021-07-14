@@ -1,15 +1,13 @@
 ---
 layout: post
 
-title: Pytorch官网Tutorials笔记（一）
+title: PyTorch官网Tutorials笔记（一）
 
-categories: 深度学习 Pytorch
+categories: 深度学习 PyTorch
 
 ---
 
 🔗：[https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html)
-
-# 1. 基础知识
 
 ## 1.1 张量（Tensors）
 

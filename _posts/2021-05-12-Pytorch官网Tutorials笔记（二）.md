@@ -1,15 +1,11 @@
 ---
 layout: post
 
-title: Pytorch官网Tutorials笔记（二）
+title: PyTorch官网Tutorials笔记（二）
 
-categories: 深度学习 Pytorch
+categories: 深度学习 PyTorch
 
 ---
-
-# Pytorch官网教程（二）
-
-# 1.基础知识
 
 ## 1.5 Autograd
 
