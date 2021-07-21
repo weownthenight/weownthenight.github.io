@@ -3,7 +3,7 @@ layout: post
 
 title: checkpoint怎么写？
 
-categories: 深度学习 PyTorch
+categories: PyTorch
 
 ---
 
