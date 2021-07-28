@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Hugging Face Transformers教程笔记(1): Transformer Models
+title: Hugging Face Transformers教程笔记(1)：Transformer Models
 
 categories: NLP
 
