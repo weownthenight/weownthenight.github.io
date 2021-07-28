@@ -11,7 +11,7 @@ categories: NLP
 
 ## Transformer演变史
 
-![image.png](attachment:image.png)
+![image01.png](/images/posts/2021072801.png)
 
 - 2017年6月：[Transformer architecture](https://arxiv.org/abs/1706.03762), the focus of the original research was on translation tasks.
 - 2018年6月：[GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf), the first pretrained Transformer model, used for fine-tuning on various NLP tasks and obtained state-of-the-art results.
@@ -32,7 +32,7 @@ categories: NLP
 - 它们都是language models（self-supervised，不需要人工标注），通过transfer learning(迁移学习）需要再fine tune on a specific task.
 - 它们都是大模型，训练的数据越大效果越好。下图是各个Transformer的参数大小：
 
-![image.png](attachment:image.png)
+![image2.png](/images/posts/2021072802.png)
 
 - Encoder和Decoder：
     - Encoder-only models:  
