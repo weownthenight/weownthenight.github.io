@@ -6,6 +6,7 @@ title: Kaggle官网上数据可视化（sns）总结
 categories: Python
 
 ---
+
 🔗：[https://www.kaggle.com/alexisbcook/choosing-plot-types-and-custom-styles](https://www.kaggle.com/alexisbcook/choosing-plot-types-and-custom-styles)
 
 <img src="https://imgur.com/2VmgDnF.png" height="500" width="1000" usemap="#plottingmap" />
