@@ -4,7 +4,7 @@ layout: post
 
 title: 使用GitHub Pages和Jekyll搭建博客
 
-categories: 备忘
+categories: 备忘 Git
 
 ---
 
