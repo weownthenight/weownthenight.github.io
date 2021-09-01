@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Hugging Face Transformers教程笔记(4)：Putting it all together
+title: Hugging Face Transformers教程笔记(5)：Putting it all together
 
 categories: NLP
 
