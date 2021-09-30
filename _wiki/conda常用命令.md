@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: wiki
 
 title: conda常用命令
-
-categories: 备忘
 
 ---
 
