@@ -5,8 +5,6 @@ title: conda常用命令
 
 ---
 
-# conda常用命令
-
 参考：[Conda常用命令整理](https://blog.csdn.net/menc15/article/details/71477949)
 
 ## help！
