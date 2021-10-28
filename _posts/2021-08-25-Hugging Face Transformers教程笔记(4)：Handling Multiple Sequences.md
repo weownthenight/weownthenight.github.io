@@ -4,7 +4,7 @@ layout: post
 title: Hugging Face Transformers教程笔记(4)：Handling Multiple Sequences
 
 categories: NLP
-
+description: 主要是batch的问题
 ---
 
 解决以下几个问题：

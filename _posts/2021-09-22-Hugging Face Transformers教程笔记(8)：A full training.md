@@ -4,7 +4,7 @@ layout: post
 title: Hugging Face Transformers教程笔记(8)：A full training
 
 categories: NLP
-
+description: 一个完整例子
 ---
 
 上一篇讲的是怎么用**Trainer** API来进行训练的，这一篇讲怎么用PyTorch写训练：

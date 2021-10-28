@@ -4,7 +4,7 @@ layout: post
 title: Hugging Face Transformers教程笔记(5)：Putting it all together
 
 categories: NLP
-
+description: 一个小总结
 ---
 
 [Putting it all together](https://huggingface.co/course/chapter2/6?fw=pt)

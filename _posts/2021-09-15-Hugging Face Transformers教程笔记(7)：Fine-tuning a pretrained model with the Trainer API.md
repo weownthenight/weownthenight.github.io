@@ -4,7 +4,7 @@ layout: post
 title: Hugging Face Transformers教程笔记(7)：Fine-tuning a pretrained model with the Trainer API
 
 categories: NLP
-
+description: Trainer API，好像用的不多
 ---
 
 

@@ -4,7 +4,7 @@ layout: post
 title: Hugging Face Transformers教程笔记(2)：Behind the pipeline
 
 categories: NLP
-
+description: 有些原理介绍
 ---
 
 [Using Transformers](https://huggingface.co/course/chapter2?fw=pt)

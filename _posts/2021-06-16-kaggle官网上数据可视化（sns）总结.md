@@ -4,7 +4,7 @@ layout: post
 title: Kaggle官网上数据可视化（sns）总结
 
 categories: Python
-
+description: 学得不快忘得很快，用的时候再说
 ---
 
 🔗：[https://www.kaggle.com/alexisbcook/choosing-plot-types-and-custom-styles](https://www.kaggle.com/alexisbcook/choosing-plot-types-and-custom-styles)

@@ -4,7 +4,7 @@ layout: post
 title: Pytorch总结：view, reshape, permute
 
 categories: PyTorch
-
+description: 一些些张量变形的问题
 ---
 
 这些问题是我在写CS224N的Assignment 5中遇到的，主要涉及到Tensor的定义和形状问题。

@@ -4,7 +4,7 @@ layout: post
 title: Hugging Face Transformers教程笔记(6)：Processing the data
 
 categories: NLP
-
+description: 数据集
 ---
 
 [Processing the data](https://huggingface.co/course/chapter3/2?fw=pt)

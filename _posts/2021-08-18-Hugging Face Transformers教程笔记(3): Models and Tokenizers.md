@@ -4,7 +4,7 @@ layout: post
 title: Hugging Face Transformers教程笔记(3)：Models and Tokenizers
 
 categories: NLP
-
+description: 很清楚，hugging face库怎么用
 ---
 
 [Models](https://huggingface.co/course/chapter2/3?fw=pt)

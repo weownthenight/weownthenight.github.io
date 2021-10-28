@@ -4,7 +4,7 @@ layout: post
 title: PyTorch官网Tutorials笔记（一）
 
 categories: 深度学习 PyTorch
-
+description: 张量
 ---
 
 🔗：[https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html)

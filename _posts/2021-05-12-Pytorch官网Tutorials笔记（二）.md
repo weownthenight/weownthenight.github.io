@@ -4,7 +4,7 @@ layout: post
 title: PyTorch官网Tutorials笔记（二）
 
 categories: 深度学习 PyTorch
-
+description: 一些原理
 ---
 
 ## 1.5 Autograd

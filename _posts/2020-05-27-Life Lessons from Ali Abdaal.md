@@ -3,7 +3,7 @@
 layout: post
 title:  Life Lessons from Ali Abdaal
 categories: 生活
-
+description: 个人效率tips
 ---
 
 这篇文章主要探讨一些生活理念上需要改变的地方，用于鼓励自己，改变观念。

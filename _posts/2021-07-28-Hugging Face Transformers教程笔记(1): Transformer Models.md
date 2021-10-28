@@ -4,7 +4,7 @@ layout: post
 title: Hugging Face Transformers教程笔记(1)：Transformer Models
 
 categories: NLP
-
+description: transformer介绍，挺直白
 ---
 
 🔗：[Transformer models](https://huggingface.co/course/chapter1)

@@ -4,7 +4,7 @@ layout: post
 title: checkpoint怎么写？
 
 categories: PyTorch
-
+description: 好像写了总结了还是不太会写...
 ---
 
 在运行深度学习的项目时，我们总是希望能够保存运行期间的模型，在断点后能接着上次的结果继续运行。为了实现这样的功能，就需要在程序中加入checkpoint。下面介绍不同的深度学习框架下如何使用checkpoint。

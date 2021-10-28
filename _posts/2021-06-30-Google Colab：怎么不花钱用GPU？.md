@@ -4,7 +4,7 @@ layout: post
 title: Google Colab:怎么不花钱用GPU？
 
 categories: 深度学习
-
+description: Google Colab
 ---
 
 这篇笔记解决一个问题：需要GPU训练模型（模型本身不大）又没卡怎么办？
