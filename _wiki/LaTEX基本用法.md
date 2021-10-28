@@ -74,7 +74,7 @@ x_{rcnn-out} = MaxPool(x_{intermediate}) \in R^h
 
 显示效果如下：
 
-![image-20211027152852617](images/posts/2021102801.png)
+![image-20211027152852617](/images/posts/2021102801.png)
 
 其中：&表示空格，\multirow需要包含multirow宏包支持。
 
@@ -118,7 +118,7 @@ x_{rcnn-out} = MaxPool(x_{intermediate}) \in R^h
 
 显示效果如下：
 
-![image-20211027153822839](images/posts/2021102802.png)
+![image-20211027153822839](/images/posts/2021102802.png)
 
 ## 插入图片
 
