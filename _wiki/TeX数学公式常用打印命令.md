@@ -115,6 +115,7 @@ title: Tex数学公式常用打印命令
 | \overline{x}                 | $\overline{x}$  |
 | \underline{x}                | $\underline{x}$ |
 | \circ                        | $\circ$         |
+| \tag{1}（给公式编号）          | $\tag{1}$       |
 
 ### 11、复杂表达式应用举例
 
