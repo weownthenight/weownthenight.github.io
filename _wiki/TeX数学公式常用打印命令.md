@@ -21,8 +21,9 @@ description: LaTeX数学公式打印
 | ---------------------------- | -------- |
 | \leq                         | $\leq$   |
 | \geq                         | $\geq$   |
+| \approx                      | $\approx$ |
 
-### 3、希腊字母
+### 3、希腊字母和其他特殊字母
 
 | 表达式（行内公式需要加上$$） | 表示形式   |
 | ---------------------------- | ---------- |
@@ -44,6 +45,8 @@ description: LaTeX数学公式打印
 | \Omega                       | $\Omega$   |
 | \mu                          | $\mu$      |
 | \eta                         | $\eta$     |
+| \kappa                       | $\kappa$   |
+| \mathbb{E}                   | $\mathbb{E}$ |
 
 ### 4、上标和下标
 
@@ -121,6 +124,7 @@ description: LaTeX数学公式打印
 | \underline{x}                | $\underline{x}$ |
 | \circ                        | $\circ$         |
 | \tag{1}（给公式编号）          | $\tag{1}$       |
+| \pm                          | $\pm$           |
 
 ### 11、复杂表达式应用举例
 
