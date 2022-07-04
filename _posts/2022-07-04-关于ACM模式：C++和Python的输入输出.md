@@ -18,8 +18,8 @@ description: ACM模式
 **Takeaways:**
 
 1. 要输⼊⼀⾏的数据的话：
-   如果是==string  s== ，则⽤ `getline(cin,s)`，需要注意的是前面如果有换行的输入（比如c`cin>>n`后再getline），一定要在前面加上`getchar();`（用来读取空格），否则会直接只读入要读的字符串前面的`\n`;  在头⽂件 `#include  <string>` ⾥⾯；
-   如果是 ==char  str[100]== , 则⽤ `cin.getline(str,  100)`;  在头⽂件 `#include  <iostream>` ⾥⾯，也可以⽤ `gets(str);1`
+   如果是`string  s`，则⽤ `getline(cin,s)`，需要注意的是前面如果有换行的输入（比如c`cin>>n`后再getline），一定要在前面加上`getchar();`（用来读取空格），否则会直接只读入要读的字符串前面的`\n`;  在头⽂件 `#include  <string>` ⾥⾯；
+   如果是`char  str[100]` , 则⽤ `cin.getline(str,  100)`;  在头⽂件 `#include  <iostream>` ⾥⾯，也可以⽤ `gets(str);1`
 
 2. 想要读入空格和回车：用`scanf("%c",&ch);`
 
@@ -59,7 +59,7 @@ description: ACM模式
   
   b. 将一行以逗号分隔的整数存放到数组中:
   
-  ```C++
+  ```c++
   #include <iostream>
   #include <string>
   #include <stdio.h>
