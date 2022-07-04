@@ -1,4 +1,9 @@
-# 关于ACM模式：C++和Python的输入输出
+---
+layout: post
+title: 关于ACM模式：C++和Python的输入输出
+categories: Python C++
+description: ACM模式
+---
 
 大部分企业校招似乎都用牛客网，最近接触了ACM模式，原来就是OJ的输入输出，因为最近都是在leetcode上练题，早就不怎么熟悉OJ的输入和输出了，所以这里总结一下需要注意的地方。
 
