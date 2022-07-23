@@ -63,7 +63,7 @@ description: ACM模式
   #include <iostream>
   #include <string>
   #include <stdio.h>
-  	#include <sstream>
+  #include <sstream>
   #include <vector>
   
   using namespace std;
