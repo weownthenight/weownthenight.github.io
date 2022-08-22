@@ -41,8 +41,6 @@ results = pd.read_csv("results/results.csv")
 results.head()
 ```
 
-</style>
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -151,7 +149,6 @@ results.head()
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
