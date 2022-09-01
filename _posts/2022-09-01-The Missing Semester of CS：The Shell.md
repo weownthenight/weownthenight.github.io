@@ -3,7 +3,7 @@ layout: post
 
 title:  The Missing Semester of CS：The Shell
 
-categories: shell bash
+categories: shell bash 备忘
 
 description: shell编程
 
@@ -13,7 +13,7 @@ description: shell编程
 
 与各种图形界面相对应，纯文字的interface就叫作shell。我们以bash(Bourne Again SHell)为例来介绍shell的用法。
 
-## Basic
+## 基础
 
 ![image-20220830141513137](/images/posts/image-20220830141513137.png)
 
