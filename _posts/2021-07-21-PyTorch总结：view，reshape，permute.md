@@ -31,10 +31,9 @@ import torch
 torch.get_default_dtype()
 ```
 
-
-
-
+```
     torch.float32
+```
 
 
 
@@ -79,7 +78,7 @@ PyTorch的Tensor数据类型如下：
 
 官方文档：[torch.view](https://pytorch.org/docs/stable/tensor_view.html)
 
-```view```并不生成新的tensor，而是在现有tensor上进行indexing，这样可以更快。只有满足连续性条件才能进行view，否则只能用reshape新建一个tensor。所以在使用view之前我们通常都有一个```contiguous()```的操作，为了使tensor满足连续性条件：
+```view```并不生成新的tensor（复制），而是在现有tensor上进行indexing，这样可以更快。只有满足连续性条件才能进行view，否则只能用reshape新建一个tensor，reshape需要复制。所以在使用view之前我们通常都有一个```contiguous()```的操作，为了使tensor满足连续性条件。在能保证是连续的情况下，```contiguous()```可以省略。
 
 
 ```python
@@ -113,9 +112,10 @@ print(cube.shape)
 print(cube.dtype)
 ```
 
+```
     torch.Size([6, 3, 3])
     torch.int64
-
+```
 
 接下来，我们将shape转换为(3, 6, 3)会怎样？是我们想象中的那样吗？
 
@@ -125,8 +125,7 @@ torch.reshape(cube, (3, 6, 3))
 ```
 
 
-
-
+```
     tensor([[[ 1,  2,  3],
              [ 4,  5,  6],
              [ 7,  8,  9],
@@ -147,7 +146,7 @@ torch.reshape(cube, (3, 6, 3))
              [ 7,  6,  5],
              [ 4,  3,  2],
              [ 1,  0, -1]]])
-
+```
 
 
 可以看到```reshape```就是按照顺序把数字填入了设定的形状中。
@@ -164,10 +163,7 @@ torch.reshape(cube, (3, 6, 3))
 ```python
 cube
 ```
-
-
-
-
+```
     tensor([[[ 1,  2,  3],
              [ 4,  5,  6],
              [ 7,  8,  9]],
@@ -191,7 +187,7 @@ cube
             [[ 7,  6,  5],
              [ 4,  3,  2],
              [ 1,  0, -1]]])
-
+```
 
 
 
@@ -201,7 +197,7 @@ torch.reshape(cube, (3, 6, 3))
 ```
 
 
-
+```
 
     tensor([[[ 1,  2,  3],
              [ 4,  5,  6],
@@ -223,7 +219,7 @@ torch.reshape(cube, (3, 6, 3))
              [ 7,  6,  5],
              [ 4,  3,  2],
              [ 1,  0, -1]]])
-
+```
 
 
 
@@ -234,7 +230,7 @@ cube.permute((1, 0, 2))
 
 
 
-
+```
     tensor([[[ 1,  2,  3],
              [ 2,  3,  4],
              [ 3,  4,  5],
@@ -255,7 +251,7 @@ cube.permute((1, 0, 2))
              [ 3,  2,  1],
              [ 2,  1,  0],
              [ 1,  0, -1]]])
-
+```
 
 
 可以看到，虽然两者的形状一样，但是值是不同的。```reshape```还原了cube，而```permute```则是变换了维度。所以千万不要以为两者等价混用。
