@@ -50,37 +50,51 @@ ChatGPT的API不是免费的，并且和plus分开收费。plus只能使用网�
 
    ```python
    import openai
-   import json
-   
-   if __name__ == "__main__":
-       openai.organization = "YOUR_ORG_ID"
-       openai.api_key = "YOUR_API_KEY"
-   
-       with open('config/engineer.json', 'r') as f:
-           config = json.load(f)
-   
-       while True:
-           content = input("User: ")
-           if content == "结束" or content == "exit":
-               break
-           config['messages'].append({"role": "user", "content": content})
-   
-           completion = openai.ChatCompletion.create(
-               model = config['model'],
-               messages = config['messages']
-           )
-           chat_response = completion.choices[0].message.content
-           print(f'ChatGPT: {chat_response}')
-           config['messages'].append({"role": "assistant", "content": chat_response})
-   
-       file_name = config['messages'][1]['content'][:10]
-   
-       qa = []
-       for reply in config['messages']:
-           qa.append(reply['role']+": "+reply['content']+"\n")
-   
-       with open("history/" + file_name+".txt", 'w') as f:
-           f.writelines(qa)
+    import json
+
+    def multiline_input(prompt):
+        print(prompt)
+        result = []
+        newline_cnt = 0
+        while newline_cnt < 3:
+            line = input()
+            if line == "":
+                newline_cnt += 1
+            else:
+                newline_cnt = 0
+            result.append(line)
+        print("End!")
+        return "\n".join(result[:-3])
+
+    if __name__ == "__main__":
+        openai.organization = "YOUR_ORG_ID"
+        openai.api_key = "YOUR API KEY"
+
+        with open('config/engineer.json', 'r') as f:
+            config = json.load(f)
+
+        while True:
+            content = multiline_input("User: ")
+            if content == "结束" or content == "exit":
+                break
+            config['messages'].append({"role": "user", "content": content})
+
+            completion = openai.ChatCompletion.create(
+                model = config['model'],
+                messages = config['messages']
+            )
+            chat_response = completion.choices[0].message.content
+            print(f'ChatGPT: {chat_response}')
+            config['messages'].append({"role": "assistant", "content": chat_response})
+
+        file_name = config['messages'][1]['content'][:10]
+
+        qa = []
+        for reply in config['messages']:
+            qa.append(reply['role']+": "+reply['content']+"\n\n")
+
+        with open("history/" + file_name+".md", 'w') as f:
+            f.writelines(qa)
    ```
 
    - 设置角色：
@@ -106,3 +120,4 @@ ChatGPT的API不是免费的，并且和plus分开收费。plus只能使用网�
      我设置了输入结束或者exit结束循环。
 
 4. 接下来只要在终端运行`chatgpt.py`就可以了，用API调用的话比网页端稳定很多，不需要经常验证。除了上面很基本的配置，这个函数还有一些参数可以设置，用的时候需要再说。
+
