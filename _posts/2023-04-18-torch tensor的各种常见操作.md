@@ -68,7 +68,7 @@ tensor([[ 1],
 
 Concatenates a sequence of tensors along a new dimension. **All tensors need to be of the same size.**对于size不同的tensor可以使用cat。
 
-##改变维度
+## 改变维度
 
 ### `torch.cat(tensors, dim)`
 
@@ -108,6 +108,43 @@ tensor([[ 1.0028, -0.1669],
         [-0.9893,  0.7299],
         [ 0.5809,  0.4942]])
 ```
+
+### `Tensor.expand(*sizes)`
+把tensor的维度进行扩展。如果设为-1，表示这个维度不变。这个括号里的size是变化后的形状size。扩展就是按照维度来复制。举例如下：
+
+```python
+>>> x = torch.tensor([[1], [2], [3]])
+>>> x.size()
+torch.Size([3, 1])
+>>> x.expand(3, 4)  # expand后形状从[3,1]变为了[3,4]
+tensor([[ 1,  1,  1,  1],
+        [ 2,  2,  2,  2],
+        [ 3,  3,  3,  3]])
+>>> x.expand(-1, 4)   # -1 means not changing the size of that dimension
+tensor([[ 1,  1,  1,  1],
+        [ 2,  2,  2,  2],
+        [ 3,  3,  3,  3]]) # expand后形状从[3,1]变为了[3,4]
+```
+也可以用expand来增加维度，增加的维度会放在最前面。举例如下：
+
+```python
+>>> x = torch.tensor([[1], [2], [3]])
+>>> x.size()
+torch.Size([3, 1])
+>>> y = x.expand(2, 3, 4)
+>>> y
+tensor([[[1, 1, 1, 1],
+         [2, 2, 2, 2],
+         [3, 3, 3, 3]],
+
+        [[1, 1, 1, 1],
+         [2, 2, 2, 2],
+         [3, 3, 3, 3]]])
+>>> y.size()
+torch.Size([2, 3, 4])
+```
+
+expand不会增加内存，只是在原先的tensor加了view。所以对expand后的tensor做操作需要小心，因为它本质上没有clone。
 
 ## 其他
 
